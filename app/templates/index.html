@@ -1,0 +1,21 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% for message in get_flashed_messages() %}
+        <p><b>Error</b>: {{ message }}</p>
+    {% endfor %}
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Base Page</h1>
+            <p>This is the default page people land on.</p>
+
+            {% for post in posts %}
+                <p>{{ post.created }} - {{ post.body }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

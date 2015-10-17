@@ -1,0 +1,5 @@
+virenv
+*.pyc
+.idea/
+app.db
+
