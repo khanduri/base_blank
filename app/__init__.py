@@ -25,7 +25,9 @@ def _get_page_config():
 
 @app.route('/')
 def index_page():
+
     posts = Post.query.all()
+
     return render_template('index.html',
                            posts=posts,
                            config=_get_page_config())
