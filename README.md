@@ -11,4 +11,9 @@
  - pip install -r requirements.txt
  - python db_create.py
 
+### HEROKU
+ - config setting :
+    - BOOTSWATCH_TEMPLATE_INDEX
+    - DATABASE_URL
+    - ENVIRONMENT
 
