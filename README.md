@@ -10,10 +10,12 @@
  - source virenv/bin/activate
  - pip install -r requirements.txt
  - python db_create.py
+ - npm init
 
 ### HEROKU
  - config setting :
     - BOOTSWATCH_TEMPLATE_INDEX
     - DATABASE_URL
     - ENVIRONMENT
+
 

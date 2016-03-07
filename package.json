@@ -1,0 +1,21 @@
+{
+  "name": "startups",
+  "version": "1.0.0",
+  "description": "### LOCAL  - Set you ENVIRONMENT to local  - git clone git@github.com:khanduri/base_blank.git workouts  - git remote remove origin  - virtualenv virenv --no-site-packages  - source virenv/bin/activate  - pip install -r requirements.txt  - python db_create.py",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-react": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-size": "^2.0.0",
+    "gulp-uglify": "^1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

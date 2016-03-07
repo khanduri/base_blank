@@ -1,5 +1,7 @@
 virenv
 *.pyc
-.idea/
+.idea/*
 app.db
-
+node_modules/*
+env/*
+app/static/bower_components/*

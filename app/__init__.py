@@ -11,7 +11,9 @@ app.config.from_object('config')
 
 db = SQLAlchemy(app)
 
-
+"""
+Utils
+"""
 def _get_page_config():
     class Config(object):
         pass
@@ -23,6 +25,9 @@ def _get_page_config():
     return config
 
 
+"""
+Views
+"""
 @app.route('/')
 def index_page():
 
@@ -33,6 +38,9 @@ def index_page():
                            config=_get_page_config())
 
 
+"""
+Tables
+"""
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     created = db.Column(db.TIMESTAMP, server_default=func.now())
